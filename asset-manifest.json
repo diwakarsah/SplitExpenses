@@ -7,8 +7,8 @@
     "static/js/2.babbd289.chunk.js": "/SplitExpenses/static/js/2.babbd289.chunk.js",
     "static/js/2.babbd289.chunk.js.map": "/SplitExpenses/static/js/2.babbd289.chunk.js.map",
     "main.css": "/SplitExpenses/static/css/main.97d160ea.chunk.css",
-    "main.js": "/SplitExpenses/static/js/main.b8936b9b.chunk.js",
-    "main.js.map": "/SplitExpenses/static/js/main.b8936b9b.chunk.js.map",
+    "main.js": "/SplitExpenses/static/js/main.d35a2ce7.chunk.js",
+    "main.js.map": "/SplitExpenses/static/js/main.d35a2ce7.chunk.js.map",
     "runtime-main.js": "/SplitExpenses/static/js/runtime-main.724c804f.js",
     "runtime-main.js.map": "/SplitExpenses/static/js/runtime-main.724c804f.js.map",
     "static/css/5.cbeaa07e.chunk.css": "/SplitExpenses/static/css/5.cbeaa07e.chunk.css",
@@ -46,7 +46,7 @@
     "static/js/20.39b84f8c.chunk.js": "/SplitExpenses/static/js/20.39b84f8c.chunk.js",
     "static/js/20.39b84f8c.chunk.js.map": "/SplitExpenses/static/js/20.39b84f8c.chunk.js.map",
     "index.html": "/SplitExpenses/index.html",
-    "precache-manifest.59aca40a5ec02631992731906d0baca3.js": "/SplitExpenses/precache-manifest.59aca40a5ec02631992731906d0baca3.js",
+    "precache-manifest.6703c571f68a642ad49500993cecaa6b.js": "/SplitExpenses/precache-manifest.6703c571f68a642ad49500993cecaa6b.js",
     "service-worker.js": "/SplitExpenses/service-worker.js",
     "static/css/5.cbeaa07e.chunk.css.map": "/SplitExpenses/static/css/5.cbeaa07e.chunk.css.map",
     "static/css/6.8dfec390.chunk.css.map": "/SplitExpenses/static/css/6.8dfec390.chunk.css.map",
@@ -61,6 +61,6 @@
     "static/css/6.8dfec390.chunk.css",
     "static/js/6.3265e073.chunk.js",
     "static/css/main.97d160ea.chunk.css",
-    "static/js/main.b8936b9b.chunk.js"
+    "static/js/main.d35a2ce7.chunk.js"
   ]
 }

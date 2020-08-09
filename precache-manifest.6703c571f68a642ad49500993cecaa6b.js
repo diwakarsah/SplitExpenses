@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f5fdcfcb3b44aab6d88d27a25415e23",
+    "revision": "e3c00a4784fe80783f87c336bcb2ab7f",
     "url": "/SplitExpenses/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SplitExpenses/static/css/6.8dfec390.chunk.css"
   },
   {
-    "revision": "1dfb5c662dee41c2f34b",
+    "revision": "5d07d52758d4fe626fe8",
     "url": "/SplitExpenses/static/css/main.97d160ea.chunk.css"
   },
   {
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SplitExpenses/static/js/9.9eacf531.chunk.js"
   },
   {
-    "revision": "1dfb5c662dee41c2f34b",
-    "url": "/SplitExpenses/static/js/main.b8936b9b.chunk.js"
+    "revision": "5d07d52758d4fe626fe8",
+    "url": "/SplitExpenses/static/js/main.d35a2ce7.chunk.js"
   },
   {
     "revision": "6cf9e79f7f905c8bf4b6",
