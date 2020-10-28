@@ -1,0 +1,336 @@
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    h4{font-size: 15px;float: left}
+
+    .hide-container{display: none}
+
+    .cus-btn{
+        padding:2px 4px;
+        font-size:60%;
+        line-height: 1;
+        border-radius:3px;
+    }
+
+    /*!* Force table to not be like tables anymore *!*/
+    /*table, thead, tbody, th, td, tr {*/
+    /*    display: block;*/
+    /*}*/
+
+    /*!* Hide table headers (but not display: none;, for accessibility) *!*/
+    /*thead tr {*/
+    /*    position: absolute;*/
+    /*    top: -9999px;*/
+    /*    left: -9999px;*/
+    /*}*/
+
+    /*tr { border: 1px solid #ccc; }*/
+    /*tr { border: 1px solid #ccc; }*/
+
+    /*td {*/
+    /*    !* Behave  like a "row" *!*/
+    /*    border: none;*/
+    /*    border-bottom: 1px solid #eee;*/
+    /*    position: relative;*/
+    /*    padding-left: 50%;*/
+    /*}*/
+
+    /*.td-bills:before {*/
+    /*    !* Now like a table header *!*/
+    /*    !*position: absolute;*!*/
+    /*    !* Top/left values mimic padding *!*/
+    /*    top: 6px;*/
+    /*    left: 6px;*/
+    /*    width: 50%;*/
+    /*    padding-right: 10px;*/
+    /*    white-space: nowrap;*/
+    /*}*/
+    /*.heading-responsive{font-size: 18px}*/
+    /*.addMember-responsive{display: block}*/
+    /*!**/
+    /*Label the data*/
+    /**!*/
+    /*.td-bills:nth-of-type(1):before { content: "Id:"; }*/
+    /*.td-bills:nth-of-type(2):before { content: "Description:"; }*/
+    /*.td-bills:nth-of-type(3):before { content: "Date:"; }*/
+    /*.td-bills:nth-of-type(4):before { content: "Paid Amount:"; }*/
+    /*.td-bills:nth-of-type(5):before { content: "Paid By:"; }*/
+    /*.td-bills:nth-of-type(6):before { content: "Split On:"; }*/
+
+    .cus-modal-dialog{
+        max-width: 300px ! important;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .cus-table td{
+        border-color: #cccccc !important;
+    }
+    .cus-list{
+        column-count: 2 !important;
+        font-size: 9.5px !important;
+    }
+    .btn-link {
+        font-size:14px !important;
+    }
+    .cus-search-bar{
+        max-width: 70% ;
+        float: right;
+    }
+
+    .cust-chcekbox{
+        column-count:2 !important;
+    }
+    .container-fluid{
+        padding-top: 5rem !important;
+    }
+}
+
+.txt-color{
+    color:#28a745;
+}
+
+.custom-card-columns{
+
+    column-gap:0rem;
+}
+.cus-alignment{
+    text-align: center;
+}
+.cus-color{
+    color:#7a827a;
+}
+
+.new-board-btn {
+    white-space: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+.cus-border{
+    border: 1px solid #28a745;
+    height: 2.56rem;
+}
+.card-header{
+    background-color: rgba(0, 0, 0, 0.00);
+    border-bottom: 1px solid #28a745;
+}
+.body-row{
+    height: 80%;
+}
+.card-footer{
+    background-color: rgba(0, 0, 0, 0.00);
+    border-top: 0px solid rgba(0, 0, 0, 0.00);
+}
+.form-control{
+    margin-bottom: 15px}
+
+
+.modal-title{
+    font-family: Merriweather Sans;
+    font-size: 1.3rem;
+}
+
+
+.modal-header{
+    border-bottom: 1px solid #28a745;
+}
+/*.modal-footer{border-Top: 1px solid #267c39;}*/
+.cus-table td {
+    font-size: 14px;
+    border-color:#28a745 ;
+    text-align: center;
+}
+.cus-table th{
+    border-top: 0px;
+    text-align: center;
+
+}
+.cus-table thead th{
+
+    border-color: #28a745;
+}
+
+
+.cus-container
+{
+    border-bottom: 1px solid  #28a745 ;
+}
+.cus-ul{
+    font-size: 14px;
+    font-family:Nunito ;
+}
+.cus-tooltip{
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.card {
+    min-height: 570px;
+    max-height: 570px;
+    background-color: #f7fff7;
+}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+
+}
+
+.container-fluid{
+    padding-top: 7rem;
+    padding-bottom: 0px !important;
+}
+
+.cus-memberName-dropDown a{
+    color: #7a827a;
+}
+sup {
+    top: -.9em;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.dispute a {
+    color:#28a745;
+}
+
+.dispute a:hover
+{
+    color:#02691c;
+}
+
+
+.cus-modal-body{
+    max-height: 400px;
+    min-height: 200px;
+    overflow: scroll;
+}
+
+.cus-list{
+    column-count: 3;
+    column-gap: 5px;
+    max-height: 200px;
+    font-size: 12px;
+    font-family: "Roboto";
+
+}
+.cust-chcekbox{
+    column-count:3;
+    margin: -20px;
+
+}
+.cust-chcekbox li {
+    margin-left: -10px;
+
+}
+.cust-checkbox-label{
+    margin-left: -10px;
+}
+.cus-happy-img{
+    width: 70px;
+    height: 70px;
+}
+
+.btn-reviewed{
+    padding:2px 4px;
+    font-size:60%;
+
+
+}
+.btn-link {
+    color:black;
+    font-size:20px;
+}
+.btn-link:hover{
+    color:green;
+}
+
+.cust-dispute-li{
+    border-top: #e3e6e8 1px solid;
+}
+
+.txtField-editingPage{
+    margin-left: 10px;
+}
+
+.error-container{
+
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+h4{
+    font-family: "Merriweather Sans";
+}
+
+.dropdown-item:hover{
+    background-color: #cbf5cb !important;
+}
+
+@media (min-width:576px) {
+    .modal-dialog {
+        max-width:550px ;
+    }
+
+    .modal-body{
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+
+    .modal-header{
+        padding: 1.5rem ;
+    }
+
+}
+
+.modal-content{
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+label{
+    color:#6c757d;
+    font-family: Poppins;
+}
+.label-margin{
+    margin-right: -30px;
+}
+
+.Loader{
+    justify-content: center !important;
+}
+.Loader .modal-content {
+    width: 30%;
+    min-height: 5rem;
+}
+
+.spinner-border{
+    width: 3rem !important;
+    height: 3rem !important;
+}
+.Loader .row{
+    padding-top: 20px;
+}
+.settlementList{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.settlementList span{
+    display: flex;
+    justify-content: center;
+}
+
+.settlementList .h4{
+    font-family: Merriweather Sans;
+}
+
+.alertMessage{
+    font-size: 20px;
+}

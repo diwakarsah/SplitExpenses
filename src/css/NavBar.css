@@ -1,0 +1,126 @@
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    .navbar-brand {
+        font-size: 1.00rem !important;
+    }
+    .logo-img{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+p {font-size: 16px;}
+
+.margin {margin-bottom: 45px;}
+
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 70px;
+
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color:#02691c;
+}
+.navbar {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    /*background-color:#1E7E34;*/
+    background-color: #e1ecdd ;
+    border-bottom: 2px solid #28a745;
+    opacity: 0.9;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #212529;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar .navbar-brand {
+    font-size: 24px;
+    padding-right: 60px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+    color:#28a745;
+}
+
+.navbar-nav  li a:hover {
+    color: #00251a !important;
+}
+.navbar-light .navbar-nav > li > a {
+    color: #ffffff;
+
+}
+.navbar-default .navbar-brand{color:#ffffff;}
+
+.navbar-nav .dropdown-menu{
+    background-color:#f7fff7;
+}
+
+.border-left-primary {
+    border-left: 0.25rem solid #28a745 !important;
+}
+
+
+/*.btn-success:hover{*/
+/*    background-color:#004c40;*/
+/*    border-color:#004c40;*/
+/*}*/
+.span-font{
+    font-size: 15px;
+}
+/*.btn-outline-success:hover{*/
+/*    background-color:#004c40;*/
+/*    border-color:#004c40;*/
+/*}*/
+/*.btn-outline-success{*/
+/*    color:#00796b;*/
+/*    border-color:#00796b;*/
+/*}*/
+a {
+    color:black;
+}
+a:hover{
+    color: #1E7E34;
+}
+*, ::after, ::before{
+    margin-bottom: 3px;
+}
+.span-font-size{
+    font-size: 15px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    color: #28a745;
+    border-color: #449f05 #146f07c4 #f7fff7;
+    background-color: #f7fff7;
+}
+.nav-tabs{
+    border-bottom: 1px solid #28a745;
+}
+
+.dropdown-menu {
+    max-height: 255px;
+    overflow: scroll;
+}
+
+.dropdown-divider{
+    border-top:1px solid #2f621c;
+}
+
+.isDisabled {
+    color: currentColor;
+    opacity: 0.8;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: black;
+    text-decoration: none;
+    background-color:#f5fcf5 ;
+}
+
+.navIcon:hover{
+   color: #02691c !important;
+}
