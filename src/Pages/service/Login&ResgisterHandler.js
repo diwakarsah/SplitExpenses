@@ -1,5 +1,5 @@
 export function FetchingLoginInfo(urls,userData,method){
-    const url = "https://splitexpenses2.herokuapp.com/billSplitter/api"+ urls;
+    const url =  urls;
     return new Promise(async (resolve,reject)=>{
 
         try {

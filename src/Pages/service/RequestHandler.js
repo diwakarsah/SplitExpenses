@@ -6,7 +6,7 @@ export const RequestHandler = async (urls, userData, method,jwt) => {
     const header = new Headers({'Content-Type':'application/json','Authorization':token});
     console.log("url",urls)
     if(method ==='get' || method === 'delete') {
-        const url = "https://splitexpenses2.herokuapp.com/billSplitter/api"+ urls + "/" + userData;
+        const url =  urls + "/" + userData;
               const fetchResult =  await fetch(url, {
                     method: method,
                     headers: header
@@ -27,7 +27,7 @@ export const RequestHandler = async (urls, userData, method,jwt) => {
 
     }
     else if (method === 'post' || method === 'put') {
-        const url =  "https://splitexpenses2.herokuapp.com/billSplitter/api"+ urls;
+        const url =   urls;
 
            const fetchResult =  await fetch(url, {
                     method: method,
